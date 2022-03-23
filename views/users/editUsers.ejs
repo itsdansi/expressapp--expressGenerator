@@ -1,0 +1,50 @@
+<%- include('./header.ejs') %>     
+<body>
+<div class="container py-3 my-2">
+  <h3>Edit user</h3>
+  <div class="row p-4">
+    <div class="col-md-10">
+      <form action="/users/edit/<%= user._id %>?_method=PUT" method="post">
+        <div class="form-group">
+          <label for="title">Username</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            value="<%= user.name %>"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            value="<%= user.email %>"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input
+            type="number"
+            class="form-control"
+            id="age"
+            name="age"
+            value="<%= user.age %>"
+            required
+          />
+
+    <button class="btn btn-sm btn-success mt-3" type="submit">Update</button>
+    <button class="btn btn-outline-success btn-md" type="submit">
+          Update
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>

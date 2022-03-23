@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "6239ff528b0cc5f79f57f239"
+  },
+  "name": "suman",
+  "email": "suman@gmail.com",
+  "age": 23,
+  "createdAt": {
+    "$date": "2022-03-22T16:54:42.359Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-22T16:54:42.359Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "623a14e9f76af0ca35b60b02"
+  },
+  "name": "rajesh",
+  "email": "dami@gmail.com",
+  "age": 22,
+  "createdAt": {
+    "$date": "2022-03-22T18:26:49.547Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-22T18:26:49.547Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "623a15b96275564a7a0259bc"
+  },
+  "name": "subash",
+  "email": "subash@gmail.com",
+  "age": 22,
+  "createdAt": {
+    "$date": "2022-03-22T18:30:17.611Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-22T18:30:17.611Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "623ac0338277574eea209798"
+  },
+  "name": "subash",
+  "email": "fddhj@gmail.com",
+  "age": 33,
+  "createdAt": {
+    "$date": "2022-03-23T06:37:39.160Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-23T06:37:39.160Z"
+  },
+  "__v": 0
+}]

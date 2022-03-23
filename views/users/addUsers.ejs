@@ -1,0 +1,50 @@
+<%- include('./header.ejs') %>
+
+<div class="container py-3 my-2">
+  <h3>User registration</h3>
+  <div class="row p-4">
+    <div class="col-md-10">
+      <form method="POST" action="/users/register">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Enter username"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter email address"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input
+            type="number"
+            class="form-control"
+            id="age"
+            name="age"
+            placeholder="Enter age"
+            required
+          />
+        </div>
+
+        <button class="btn btn-sm btn-primary mt-3" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
